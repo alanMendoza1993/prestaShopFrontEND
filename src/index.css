@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: Helvetica, Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 60px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.title {
+  display: flex;
+}
+.in {
+  width: 100%;
+  font-size: 1.2rem;
+  color: rgb(81, 81, 81);
+}
+.card {
+  align-content: center;
+  border-radius: 6px;
+  border: 1px solid grey;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  overflow: hidden;
+  background-color: rgb(21, 143, 187);
+}
+ol {
+  padding: 0;
+  margin: 0rem;
+  text-decoration: none;
+  list-style-type: none;
+}
+ol li {
+  margin: 0.5rem;
+}
+.card p,
+.card .number {
+  padding: 5px;
+  text-align: center;
+  margin: 0.3rem 0;
+  color: rgb(255, 255, 255);
+}
+.card img {
+  max-height: 170px;
+}
+.card-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
